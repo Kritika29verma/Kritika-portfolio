@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HomeSection = ({ data, onNavigate }) => {
@@ -67,6 +67,18 @@ const HomeSection = ({ data, onNavigate }) => {
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               Get In Touch
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              asChild
+              className="border-muted-foreground/30 text-muted-foreground hover:bg-muted hover:text-foreground transition-all duration-300"
+            >
+              <a href="/resume.pdf" download>
+                <Download className="mr-2 h-4 w-4" />
+                Download Resume
+              </a>
             </Button>
           </motion.div>
         </motion.div>

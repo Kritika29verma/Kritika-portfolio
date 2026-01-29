@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
-import { Home, User, Code, Briefcase, Mail } from 'lucide-react';
+import { Home, User, Building2, Code, Briefcase, Mail } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
 const navItems = [
   { id: 'home', label: 'Home', icon: Home },
   { id: 'about', label: 'About', icon: User },
+  { id: 'experience', label: 'Experience', icon: Building2 },
   { id: 'skills', label: 'Skills', icon: Code },
   { id: 'projects', label: 'Projects', icon: Briefcase },
   { id: 'contact', label: 'Contact', icon: Mail },

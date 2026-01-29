@@ -40,9 +40,16 @@ const ProjectsSection = ({ data }) => {
                     <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </div>
 
-                  <p className="mb-4 text-muted-foreground leading-relaxed">
-                    {project.description}
-                  </p>
+                  <ul className="mb-4 space-y-1.5">
+                    {project.highlights.map((point, i) => (
+                      <li
+                        key={i}
+                        className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-2 before:h-1.5 before:w-1.5 before:rounded-full before:bg-primary"
+                      >
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
 
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (

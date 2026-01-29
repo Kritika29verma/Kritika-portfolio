@@ -5,6 +5,7 @@ import Navigation from '@/components/Navigation';
 import MobileNav from '@/components/MobileNav';
 import HomeSection from '@/components/sections/HomeSection';
 import AboutSection from '@/components/sections/AboutSection';
+import ExperienceSection from '@/components/sections/ExperienceSection';
 import SkillsSection from '@/components/sections/SkillsSection';
 import ProjectsSection from '@/components/sections/ProjectsSection';
 import ContactSection from '@/components/sections/ContactSection';
@@ -23,6 +24,8 @@ const Index = () => {
         return <HomeSection data={portfolioData} onNavigate={handleNavigate} />;
       case 'about':
         return <AboutSection data={portfolioData} />;
+      case 'experience':
+        return <ExperienceSection data={portfolioData} />;
       case 'skills':
         return <SkillsSection data={portfolioData} />;
       case 'projects':

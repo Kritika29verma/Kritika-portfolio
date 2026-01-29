@@ -1,37 +1,89 @@
 {
   "name": "Kritika Verma",
-  "title": "Creative Web Developer",
-  "tagline": "Crafting Beautiful Digital Experiences",
-  "about": "I'm a passionate web developer who loves creating interactive and visually stunning web experiences. With a keen eye for design and a deep understanding of modern web technologies, I transform ideas into elegant, functional websites that users love.",
-  "bio": "With expertise in modern web development and a passion for clean, efficient code, I specialize in building responsive, user-friendly applications. I believe in the power of great design combined with solid engineering to create digital products that make a difference.",
-  "skills": [
-    { "name": "HTML5", "level": 95 },
-    { "name": "CSS3 & Tailwind", "level": 90 },
-    { "name": "JavaScript", "level": 88 },
-    { "name": "React", "level": 92 },
-   
-    { "name": "TypeScript", "level": 80 },
-    { "name": "Framer Motion", "level": 87 },
-    { "name": "UI/UX Design", "level": 83 }
+  "title": "Frontend Developer",
+  "tagline": "Building clean, responsive web interfaces with React",
+  "about": "I'm a frontend developer focused on building responsive, component-driven web applications using React and modern JavaScript. I work with Tailwind CSS and Framer Motion to create clean, interactive interfaces with attention to layout, structure, and usability.",
+  "bio": "I enjoy breaking UI problems into reusable components and maintaining clear, readable codebases. My workflow involves iterating on layouts, handling client-side logic, and ensuring consistent behavior across screen sizes. I'm continuously building projects to strengthen my frontend fundamentals and practical development skills.",
+  "experience": [
+    {
+      "role": "Full Stack Developer Intern",
+      "company": "Pear Media LLC — Remote",
+      "duration": "Nov 2025 – Jan 2026",
+      "responsibilities": [
+        "Built and deployed multiple responsive landing pages using HTML, CSS, and JavaScript for live client-facing products.",
+        "Implemented reusable UI components and layouts with a focus on responsiveness and cross-browser consistency.",
+        "Participated in deployment workflows, including hosting setup and publishing updates to production environments.",
+        "Used Git and GitHub for version control, handling feature updates, fixes, and collaborative changes.",
+        "Worked with real production setups involving domains and live websites, gaining exposure to end-to-end deployment flow."
+      ]
+    },
+    {
+      "role": "Additional Projects",
+      "company": "QSpiders — Training",
+      "duration": "",
+      "responsibilities": [
+        "Built multiple practice projects while training at QSpiders, focusing on HTML, CSS, JavaScript, and React fundamentals.",
+        "Practiced responsive layouts, component-based UI design, and client-side logic through hands-on exercises and personal projects."
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Core",
+      "skills": ["HTML5", "CSS3", "JavaScript (ES6+)"]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "skills": ["React", "React Router", "Framer Motion", "Tailwind CSS"]
+    },
+    {
+      "category": "Tools & Workflow",
+      "skills": ["Git & GitHub", "Vite", "npm", "VS Code", "Chrome DevTools"]
+    },
+    {
+      "category": "Currently Learning",
+      "skills": ["Java (Backend Fundamentals)"]
+    }
   ],
   "projects": [
     {
-      "title": "World Tour Map Website",
-      "description": "Developed an interactive world map platform to pin and track visited locations using React.js and Leaflet.js with a responsive, modern UI.",
-      "technologies": ["Next.js", "React", "Stripe", "Tailwind CSS"],
+      "title": "World Tour Map",
+      "highlights": [
+        "Built an interactive map application using React and Leaflet.js to visualize and manage visited locations.",
+        "Implemented custom markers, popups, and responsive layouts to support different screen sizes.",
+        "Managed client-side state for map interactions and UI updates."
+      ],
+      "technologies": ["React", "Leaflet.js", "Tailwind CSS"],
       "link": "#"
     },
-  
+    {
+      "title": "Image Generator",
+      "highlights": [
+        "Built a frontend application to generate and display images based on user input.",
+        "Focused on handling user interactions, UI state, and dynamic rendering.",
+        "Designed a clean, responsive interface with clear feedback during user actions."
+      ],
+      "technologies": ["JavaScript", "React", "Tailwind CSS"],
+      "link": "#"
+    },
+    {
+      "title": "Admin Dashboard",
+      "highlights": [
+        "Developed a dashboard-style interface with reusable components and structured layouts.",
+        "Implemented navigation, cards, and data display components commonly used in admin panels.",
+        "Focused on layout consistency, responsiveness, and component reuse."
+      ],
+      "technologies": ["React", "Tailwind CSS", "JavaScript"],
+      "link": "#"
+    },
     {
       "title": "Portfolio Website",
-      "description": "Personal portfolio built with smooth animations, interactive elements, and a modern design system.",
-      "technologies": ["Next.js", "Framer Motion", "Tailwind CSS"],
-      "link": "#"
-    },
-    {
-      "title": "Reddit Client",
-      "description": "Currently building a Reddit client using React and Reddit API to display live subreddit posts in dynamic, customizable lanes with a responsive UI.",
-      "technologies": ["React", "API Integration", "Charts.js"],
+      "highlights": [
+        "Designed and built a single-page portfolio to showcase projects and experience.",
+        "Implemented animations and transitions using Framer Motion.",
+        "Structured the project with reusable components and a consistent design system."
+      ],
+      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
       "link": "#"
     }
   ],
@@ -39,6 +91,6 @@
     "email": "kritikaverma2909@gmail.com",
     "linkedin": "https://linkedin.com/in/kritikaverma",
     "github": "https://github.com/kritikaverma",
-   "twitter": "https://twitter.com/kritikaverma"
+    "twitter": "https://twitter.com/kritikaverma"
   }
 }
