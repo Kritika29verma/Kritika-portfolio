@@ -57,14 +57,14 @@
       "link": "#"
     },
     {
-      "title": "Image Generator",
+      "title": "AI Image Generator",
       "highlights": [
-        "Built a frontend application to generate and display images based on user input.",
-        "Focused on handling user interactions, UI state, and dynamic rendering.",
-        "Designed a clean, responsive interface with clear feedback during user actions."
+        "Designed and deployed an AI-powered image generation service with a production-ready UI and API-style workflow.",
+        "Built a system that accepts structured prompts, generates images using a model backend, and serves them via a scalable frontend.",
+        "Focused on deployment, latency, and usability — built as a functional product rather than a demo."
       ],
-      "technologies": ["JavaScript", "React", "Tailwind CSS"],
-      "link": "#"
+      "technologies": ["React", "API Integration", "JavaScript", "Tailwind CSS"],
+      "link": "https://image-generation-ai-black.vercel.app/"
     },
     {
       "title": "Admin Dashboard",
@@ -74,7 +74,7 @@
         "Focused on layout consistency, responsiveness, and component reuse."
       ],
       "technologies": ["React", "Tailwind CSS", "JavaScript"],
-      "link": "#"
+      "link": "https://admin-dashboard-topaz-sigma-75.vercel.app/"
     },
     {
       "title": "Portfolio Website",
