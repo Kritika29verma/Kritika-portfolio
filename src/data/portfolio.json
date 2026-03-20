@@ -1,51 +1,85 @@
 {
   "name": "Kritika Verma",
-  "title": "Frontend Developer",
-  "tagline": "Building clean, responsive web interfaces with React",
-  "about": "I'm a frontend developer focused on building responsive, component-driven web applications using React and modern JavaScript. I work with Tailwind CSS and Framer Motion to create clean, interactive interfaces with attention to layout, structure, and usability.",
-  "bio": "I enjoy breaking UI problems into reusable components and maintaining clear, readable codebases. My workflow involves iterating on layouts, handling client-side logic, and ensuring consistent behavior across screen sizes. I'm continuously building projects to strengthen my frontend fundamentals and practical development skills.",
+  "title": "Full Stack Developer | React.js + Spring Boot",
+  "tagline": "Building production-ready web apps with React.js, Spring Boot & PostgreSQL",
+  "about": "I'm a Full Stack Developer with 9+ months of production experience building and deploying web applications using React.js, Spring Boot, and PostgreSQL. I've worked across the full stack — designing REST APIs, implementing JWT authentication with Spring Security, managing relational databases, and deploying applications on AWS (EC2/S3) and Vercel. I focus on writing clean, maintainable code with attention to performance, security, and user experience. I've reduced CRM page load time by 25% through lazy loading and optimized API calls, and built AI-integrated platforms with third-party API workflows. I enjoy taking ownership of features end-to-end — from database schema design to frontend UI — and delivering production-ready results.",
+  "bio": "I enjoy breaking complex problems into clean, reusable components and maintaining readable, well-structured codebases. My workflow spans REST API design, database schema planning, frontend state management, and cloud deployment. I take ownership of features end-to-end and continuously build projects that solve real problems.",
   "experience": [
     {
       "role": "Full Stack Developer Intern",
       "company": "Pear Media LLC — Remote",
       "duration": "Nov 2025 – Jan 2026",
       "responsibilities": [
-        "Built and deployed multiple responsive landing pages using HTML, CSS, and JavaScript for live client-facing products.",
-        "Implemented reusable UI components and layouts with a focus on responsiveness and cross-browser consistency.",
-        "Participated in deployment workflows, including hosting setup and publishing updates to production environments.",
-        "Used Git and GitHub for version control, handling feature updates, fixes, and collaborative changes.",
-        "Worked with real production setups involving domains and live websites, gaining exposure to end-to-end deployment flow."
+        "Built and deployed responsive client-facing web pages using HTML, CSS, and JavaScript for live production products.",
+        "Participated in requirement gathering and technical discussions with cross-functional teams during the development lifecycle.",
+        "Diagnosed and resolved production bugs across frontend and backend, ensuring smooth performance across platforms.",
+        "Managed website deployments and hosting updates on AWS (EC2/S3), ensuring stable production releases.",
+        "Used Git and GitHub for version control, handling feature updates, fixes, and collaborative changes."
       ]
     },
     {
-      "role": "Additional Projects",
-      "company": "QSpiders — Training",
-      "duration": "",
+      "role": "Frontend Developer",
+      "company": "Nanostack Private Limited — Bhopal",
+      "duration": "Apr 2025 – Sep 2025",
       "responsibilities": [
-        "Built multiple practice projects while training at QSpiders, focusing on HTML, CSS, JavaScript, and React fundamentals.",
-        "Practiced responsive layouts, component-based UI design, and client-side logic through hands-on exercises and personal projects."
+        "Developed Adam Exports CRM using React.js and Redux Toolkit, reducing page load time by 25% through lazy loading and optimized API calls.",
+        "Built dynamic forms with validation using React Hook Form and Formik, improving user experience and minimizing input errors.",
+        "Integrated REST APIs using Axios and implemented interactive dashboards, modals, and data tables with filtering, sorting, and search functionality.",
+        "Participated in code reviews and followed clean code practices; tested and debugged API integrations using Postman and Browser DevTools."
       ]
     }
   ],
   "skillCategories": [
     {
-      "category": "Core",
-      "skills": ["HTML5", "CSS3", "JavaScript (ES6+)"]
+      "category": "Languages",
+      "skills": ["Java", "JavaScript (ES6+)"]
     },
     {
-      "category": "Frameworks & Libraries",
-      "skills": ["React", "React Router", "Framer Motion", "Tailwind CSS"]
+      "category": "Frontend",
+      "skills": ["React.js", "Redux Toolkit", "React Hook Form", "Axios", "Tailwind CSS", "React Router DOM", "HTML5", "CSS3"]
     },
     {
-      "category": "Tools & Workflow",
-      "skills": ["Git & GitHub", "Vite", "npm", "VS Code", "Chrome DevTools"]
+      "category": "Backend",
+      "skills": ["Spring Boot", "Spring MVC", "Node.js", "Express.js", "REST API Development"]
     },
     {
-      "category": "Currently Learning",
-      "skills": ["Java (Backend Fundamentals)"]
+      "category": "Database",
+      "skills": ["MySQL", "PostgreSQL", "Spring Data JPA", "JDBC"]
+    },
+    {
+      "category": "Auth & Security",
+      "skills": ["JWT Authentication", "Spring Security", "BCrypt Hashing"]
+    },
+    {
+      "category": "Tools & Deployment",
+      "skills": ["Git", "GitHub", "Postman", "AWS (EC2/S3)", "Vercel", "Maven", "Vite", "VS Code"]
+    },
+    {
+      "category": "AI Tools",
+      "skills": ["GitHub Copilot", "ChatGPT", "Claude", "Prompt Engineering"]
     }
   ],
   "projects": [
+    {
+      "title": "Expense Tracker — Full Stack Finance Management App",
+      "highlights": [
+        "Built full-stack web app with React 19 + Spring Boot 3 REST backend with PostgreSQL, JWT authentication, Spring Security BCrypt hashing, and protected routes via React Context + Axios interceptors.",
+        "Implemented three-tier spending alerts with per-category limits (SAFE/WARNING/EXCEEDED), Recharts analytics dashboard, paginated CRUD table, and CSV export via OpenCSV.",
+        "Achieved multi-user data isolation via per-user JPA query scoping — all data scoped per user with zero leakage between accounts."
+      ],
+      "technologies": ["React 19", "Spring Boot 3", "PostgreSQL", "JWT", "Spring Security", "Recharts", "OpenCSV", "Vercel"],
+      "link": "https://expense-tracker-1-y19a.onrender.com/"
+    },
+    {
+      "title": "Imaginai — AI Image Generation Platform",
+      "highlights": [
+        "Built end-to-end AI platform where Express.js backend receives user prompts, calls a third-party AI API, and returns generated images to the frontend.",
+        "Managed async/await workflows, structured error handling, and environment-secured API keys for production safety.",
+        "Built production-ready UI with loading states and error fallbacks for timeouts and invalid inputs, deployed on Vercel with Vite build and SPA routing."
+      ],
+      "technologies": ["JavaScript", "Node.js", "Express.js", "AI API", "Vercel", "Vite"],
+      "link": "https://imagin-ai-dun.vercel.app/"
+    },
     {
       "title": "World Tour Map",
       "highlights": [
@@ -54,43 +88,23 @@
         "Managed client-side state for map interactions and UI updates."
       ],
       "technologies": ["React", "Leaflet.js", "Tailwind CSS"],
-      "link": "#"
-    },
-    {
-      "title": "AI Image Generator",
-      "highlights": [
-        "Designed and deployed an AI-powered image generation service with a production-ready UI and API-style workflow.",
-        "Built a system that accepts structured prompts, generates images using a model backend, and serves them via a scalable frontend.",
-        "Focused on deployment, latency, and usability — built as a functional product rather than a demo."
-      ],
-      "technologies": ["React", "API Integration", "JavaScript", "Tailwind CSS"],
-      "link": "https://image-generation-ai-black.vercel.app/"
+      "link": "https://github.com/Kritika29verma/World-Tour-Map-Website"
     },
     {
       "title": "Admin Dashboard",
       "highlights": [
         "Developed a dashboard-style interface with reusable components and structured layouts.",
-        "Implemented navigation, cards, and data display components commonly used in admin panels.",
+        "Implemented navigation, cards, and data display components commonly used in real admin panels.",
         "Focused on layout consistency, responsiveness, and component reuse."
       ],
       "technologies": ["React", "Tailwind CSS", "JavaScript"],
       "link": "https://admin-dashboard-topaz-sigma-75.vercel.app/"
-    },
-    {
-      "title": "Portfolio Website",
-      "highlights": [
-        "Designed and built a single-page portfolio to showcase projects and experience.",
-        "Implemented animations and transitions using Framer Motion.",
-        "Structured the project with reusable components and a consistent design system."
-      ],
-      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
-      "link": "#"
     }
   ],
   "contact": {
     "email": "kritikaverma2909@gmail.com",
-    "linkedin": "https://linkedin.com/in/kritikaverma",
-    "github": "https://github.com/kritikaverma",
-    "twitter": "https://twitter.com/kritikaverma"
+    "linkedin": "https://www.linkedin.com/in/kritika-verma-9b38bb244/",
+    "github": "https://github.com/Kritika29verma",
+    "twitter": ""
   }
 }
